@@ -1,0 +1,4 @@
+Maksorin:
+css :mediaquery+pKortriat+boostrap
+javaScript:AJAX + BASISCS +JQUERY
+HTML CSS JAVASCRIPT FULL PROJECT

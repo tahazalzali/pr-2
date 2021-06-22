@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#divmain{
+  
+
+    width: 100%;
+    background: white;
+    font-family: 'Ubuntu Mono', monospace;
+    border: black dotted 5px;;
+ position: relative;
+ clear: both;
+background-image: linear-gradient();
+
+} 
+
+
+header h1{
+    text-align: center;
+}
+#chicken{
+ 
+    color: black;
+    font-size: 20px;
+    right: 0%;
+    top: 0%;
+    position: absolute ;
+background-color: indianred;
+width: 70px;
+}
+#sushi{
+    overflow: initial;
+    color: black;
+    font-size: 20px;
+    right: 0%;
+    top: 0%;
+    position: absolute ;
+background-color: palegoldenrod;
+width: 50px;
+}
+#beef{
+   color: black;
+   font-size: 20px;
+    position: absolute;
+    background-color: orangered;
+    width: 50px;
+    right: 0%;
+    top: 0%;
+    
+}
+main div{
+    border: black solid;
+    width: 30%;
+    
+    overflow: auto;
+    position: absolute;
+}
+#beefd{
+    position: relative;
+background-color: gray;
+margin: 0px 10px; 
+float: left;
+
+}
+#chickend{
+    background-color: gray;
+    position: relative;
+    float: left;
+    margin: 0px 10px;
+
+}
+#sushid{
+    
+    margin: 10px;
+    position: relative;
+    background-color: gray;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    clear: both;
+}

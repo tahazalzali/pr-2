@@ -1,0 +1,204 @@
+#liu
+{
+    background-image: url(./media/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+body{
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+h4{
+    text-decoration: underline overline wavy;
+    color: blue; opacity: 0.4;
+width: 5%;}
+h4:hover h4:active {
+    opacity: 1;
+    color: red;
+    text-align: center;
+    
+}
+#sex{
+    letter-spacing: 5px;
+}
+floati{
+    width: 70%;
+    background-color: tomato;
+    display: inline-flex;
+    margin: 0px;
+     float:left;  
+}
+#ha{
+    background: whitesmoke;
+    width: 200px;
+    height: 100px;
+    transition:2s width 1s;
+   float :left;
+    
+    
+
+}
+#hb{
+    width: 200px;
+    background: yellowgreen;
+    height: 100px;
+    clear: both;
+
+ float: left;
+}
+#hc{
+    background :midnightblue;
+    width:200px;
+    height:100px;
+    float:left ;
+}
+#hd{
+    background:white;
+    float: left;
+    width: 100px;
+    height :100px;
+}
+#ha:hover{
+    width: 300px;
+    background: rgb(4, 104, 255);
+}
+div h1{
+    text-shadow: 2px 3px #0575e6;
+}
+#m1  {
+    width: 800px;
+    height: 200px;
+    background: burlywood;
+    float: none;
+    margin: 0px;
+    display: flex;
+    justify-content:initial ;
+
+  
+}
+
+#object{
+    width: 100%;
+    height: auto;
+    background: slategrey;
+    animation: taha 2s 0s 5;
+}
+@keyframes taha {
+    from{
+        background: snow;
+    }
+    to{
+        background: tan
+        ;
+    }
+}
+#object img{
+    width: 50%;
+    height: 100px;
+    background: springgreen;
+}
+div #h3{
+    width: 70%;
+    background: tan;
+
+}
+div ul{
+    background-color: rosybrown;
+    list-style-type: disc;
+    width: 30%;
+}
+div ul li{
+    background:skyblue;
+    margin: 5px;
+    margin-top: 9px;
+
+} div ol{
+    list-style-type: square;
+    height: auto;
+    width: 30%;
+    background: springgreen;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.first{
+    width: 70%;
+    height: 200px;
+    background: red;
+ position: relative;
+}
+div.second{
+    width: 50%;
+height: 200px;
+background:rosybrown;
+}
+div #al{
+    object-fit: fill;
+    width: 50%;
+    height: 170px;
+    position: absolute;
+    right: 0%;
+}
+div.num{
+    width:300px;
+    background:white;
+    position: relative;
+    transition: 2s width 0s;
+}
+div.num:hover{
+width:500px;
+}
+fixed{
+    position: fixed;
+    background-color: midnightblue;
+}
+#ar1{
+    background: crimson;
+    width: 200px;
+ height: 200px;   
+}
+#ar2{background: cornflowerblue;
+    width: 200px;
+ height: 200px;   
+}#ar3{background:darkblue;
+    width: 200px;
+ height: 200px;   
+}
+#but{
+   transform: translate(50%,50%);
+    background-color: seagreen;
+}
+a div img{
+ 
+    width: 70px;
+}
+#txt4,#txt5{
+    width: 100px;
+    height: 30px;
+    transition: 2s width,2s height;
+}
+#txt5:focus,#txt4:focus{
+
+color: brown;
+background: burlywood;
+width:200px}
+body a div img{
+    transform: translate(50%,50%);
+}
+#but:hover ,#but:active{
+color: red;
+
+}
+#taha:hover{opacity: 1;
+    animation: flip-horizontal-bottom 2s 0s 5 ; 
+color:rgb(255, 0, 0);}
+#but:visited{
+    color: black;
+}
+#display a{
+    background-color: black;
+    color: blue;
+    display: inline-block
+    ;
+}
+
+@-webkit-keyframes flip-horizontal-bottom{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}100%{-webkit-transform:rotateX(-180deg);transform:rotateX(-180deg)}}@keyframes flip-horizontal-bottom{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}100%{-webkit-transform:rotateX(-180deg);transform:rotateX(-180deg)}}

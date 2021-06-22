@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<body>
+    <form >
+  <table>
+   <tr>
+       <th>
+        <h4>Full name<span style="color: red;">*</span></h4>   
+       </th>
+       <th>
+           <input type="text" name="name" id="mame">
+       </th>
+   </tr>
+    <tr>
+
+<td>
+    <label ><h4>Email<span style="color: red;">*</span></h4></label></td>
+    <td><input type="email" name="Email" id="mail" required placeholder="jaafar@nail.com"></td>
+    </tr>
+    
+    <tr><td>
+        <label><h4>Password <span style="color: red;">*</span></h4></label>
+
+    </td><td><input type="password" name="pass" id="pass"required placeholder="
+        * * * * * * * * * *"></td>
+</tr>
+<td>
+    <label><h4>Language<span style="color: red;">*</span></h4></label>
+</td>
+<td>
+<select name="lan" id="lan" required autofocus>
+    <option autofocus></option >
+    <option value="en">English</option>
+    <option value="ar">Arabic</option>
+<option value="fr">France</option></select>
+</td>
+<tr>
+<td>
+<label><h4>Birthday<span style="color: red;">*</span></h4></label></td>
+
+<td><input type="date">19/06/2020</td></tr>
+<tr>
+    <th><button type="submit" >Submit</button> </th>
+    <th><button type="reset">Reset</button></th>
+    
+    </tr>
+   </table> 
+
+
+</form>
+</body>
+</html>

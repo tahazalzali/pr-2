@@ -1,0 +1,28 @@
+ div{
+    background: rgb(185, 185, 185);
+    background-image: url(./media/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+
+
+}
+marquee{
+    background: yellow;
+}
+#divv{
+    width: 100%;
+    height: 200px;
+
+    background-image: linear-gradient(to right, #00f260,#0575e6);
+}
+
+#TTSO{
+    width: 30%;
+    height: 100px;
+    object-fit: fill;
+    border: 5px solid steelblue;
+    transform: translate(50%,20%);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 56%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}

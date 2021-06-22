@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firstDesign.css">
+    <title>Test taha</title>
+<style>
+    li ,audio,video{
+background: green;
+padding: 10px;
+margin: 1px;
+color: honeydew;
+direction: rtl;
+    }
+    iframe{
+        background: forestgreen;
+        padding: 10px;
+        margin: 2px;
+    }
+</style>
+</head>
+<body>
+style button{
+
+}
+<audio src="KAMIKAZE.mp3" controls  muted autoplay></audio>
+    <ul>
+<li>
+    taha Zalzali
+</li>
+<li>
+    jaafar Zalzali
+</li>
+<li>
+    zahraa zaarour
+</li>
+</ul> 
+<details style="border: 2px solid #4c2d2d">
+    <summary style="font-weight: bold;
+    border: 10px;
+    background: wheat;
+    font-size: 31px;"> Taha List</summary>
+    <p>front end</p>
+    <p>web developer</p>
+    <p>html css javascript MYSQL algorthms </p>
+    <P>NO projects</P>
+</details>
+<button type="reset" onclick="alert('the text will reset')" >ttl</button>
+<form >
+
+<table><tr>
+    <td><label style="background: red;
+        color: black;
+        padding: 1px;" >Email</label> <span style="color: red;">*</span></td>
+    <td><input type="email" placeholder="name@example.com" name="mail" required></td>
+</tr>
+<tr>
+    <td><label>Password</label></td>
+    <td>   <input type="text" placeholder="************" name ="pass" required></td>
+    
+</tr>
+<tr>
+<td><button type="submit">submit</button></td>
+<td><button type="reset">reset</button></td>
+</tr>
+</table>
+    
+    <br>
+</form>
+<marquee behavior="" direction="reight">Allloww</marquee>
+<video poster="582de7cfa265f.jpg" controls width="40%" src="v2.mp4">55</video>"
+<br>
+<table border="2px" style="padding: 2px;">
+<form >
+<tr>
+<td><select name="age"id="age" size="1" required>
+    Your age
+    <option value="empty"><label></label></option>
+    <option value="18>">18></option>
+    <option value="18&lt;">18&lt;</option>
+  
+</select></td> </tr>
+<tr>
+    <td colspan="2"><p>Select your sex</p></td>
+</tr>
+<tr>
+    <td>
+        
+    <label >Male</label>
+        
+    <input type="radio" name="sex" value="male"></td>
+        <td>
+        <label >Female</label>
+         <input type="radio" name="sex" value="female">
+        </td>
+</tr>
+<tr><p>Please upload your CV here</p></tr>
+<tr>
+    <td><button name="cv" type="button" onclick="document.getElementById('CV').click()" style="color: #2473d8;
+        background: brown;
+        border: 10px;       margin: auto;" >choose a filee</button>
+        <td><input  style="display: none;" id="CV" type="file" name="cv" accept=".pdf,image/*" required value="cv"></td>
+    </td>
+    
+</tr>
+<tr>
+    <td>Select languages that you love </td>
+</tr>
+<tr><td><input type="checkbox" name="lang"/>java</td></tr>
+<tr><td><input type="checkbox" name="lang"/>css</td></tr>
+<tr><td><input type="checkbox" name="lang"/>HTMl</td></tr>
+<tr>
+<td><button type="submit" style=" height: 100%;  background: aqua; font-size: 10px; padding: 10px; 
+border: 2px solid white;">SUBMIT</button>
+    </td> </tr>
+</form>
+
+
+</table><br>
+<marquee  bgcolor="red" behavior="scroll" direction="left" scrollamount="10"><span>
+    <img src="582de7cfa265f.jpg"  style="width: 25%; height: 25%; object-fit: cover; margin: 0;padding:10px ;border:2px dotted black; border-radius: 50%;" alt="an empty photo"></span>
+<span> <img style="width: 30%; height: 30%; object-fit: cover; border-radius: 50%;" src="eng9.png" alt="Photo"></span>
+</marquee>
+<br>
+<iframe width="50%" height="100%" src="https://www.youtube.com/embed/oOPjWUwNyjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
+<a href="f2.html" target="_blank">contact us
+    <button>heree</button>
+</a>
+<br>
+<a  target="_blank" href="f1.html">or enter liu
+    <button>heree</button>
+</a></div>
+<div>Listen to our new music <a href="KAMIKAZE.mp3" download>Hereeee</a>
+</div>
+<div id="fullname">
+    <h4 >Full name :</h4>
+    <P id="name">Taha Zalzali</P>
+    <button type="button"  onclick="save()" >Save</button>
+    <button type="button"  onclick="edit()" >Edit</button>
+    <script>
+    function save(){
+        document.getElementById("name").contentEditable="false";}
+    function edit() {
+        document.getElementById("name").contentEditable="true";
+    }   
+
+    </script>
+</div>
+<div><form>
+    <input type="text" name="mil" required oninvalid="
+    error_message(this)" oninput="error_message">
+    <button type="submit">Submit</button>
+</form>
+<script>
+function error_message(txt){
+    if(txt.value==''){
+        txt.setCustomValidity('please type your email');
+    }else if (txt.validity.typeMismatch){
+        txt.setCustomValidity('Please type full mail');
+    }else{
+        txt.setCustomvalidity('');
+    }
+
+}
+</script>
+</div>
+  <dialog id="dialog"  style="margin: 0%; padding: 0; width: 30%;">
+    <img src="582de7cfa265f.jpg" alt="Reset" style="width: 40%;object-fit: cover ;height: 40%;">
+<button type="button" onclick="hidedialog()" >Hide</button></dialog>
+<button type="button" onclick="showdialog()">Show content</button>
+    <script>
+        function showdialog(){
+            document.getElementById("dialog").setAttribute("open","true");
+        }
+        function hidedialog(){
+            document.getElementById("dialog").removeAttribute("open");
+        }
+    </script>
+  <div id="divv">
+      <article>
+          <img id ='TTSO'src="eng9.png" alt="idk what fkn to type">
+      </article>
+  </div>
+
+</html>

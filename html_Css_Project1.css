@@ -1,0 +1,367 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ #head{
+    width: 100%;
+    background: linear-gradient(to right, red,orange);
+    height: 100px;
+    
+}
+#home{
+width: 30px;
+height: 10px;
+
+}
+#homeimg{
+    width: 5%;
+
+}
+
+ul{height:50px;
+    color: rgb(0, 0, 0);
+overflow: visible;
+    margin-left:40px ;
+    color: black;
+}
+ul a{
+    display: inline-block;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+  nav{    display: flex;
+    background-color: blanchedalmond;
+    width: 70%;
+    height: 100px;
+    /* position: relative; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+nav span a:hover{
+    color: crimson;
+}
+nav span:hover  ul{
+    color: crimson;
+display: block;
+}
+#alow :hover{
+    size: 110%;
+    background: saddlebrown;
+
+}
+nav span{
+    text-align: center;
+}
+nav span a{
+    
+    display: inline-block;
+    width: 70%;
+    padding: 0px 10px;
+    background-color: brown;
+    line-height: 100px;
+    height: 100px;
+    margin: 0px 10px;
+    text-decoration: solid;}
+#logoBox{
+    width: 30%;
+height: 100px;
+background: rgb(90, 62, 62);
+float: right;}
+#head #wtf{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+}
+body{
+    width: 100%;
+}
+main{
+    background: crimson;
+    width: 70%;
+    height: 450px;
+    animation: bodycolor 8s 0s 2;
+    border-top:  3px solid white ;
+    float: right;
+}
+#asidebox{
+    background: linear-gradient(30deg , red 35%,white 40%);
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: absolute;
+    line-height: 50px;
+
+    bottom: 0;
+        
+}
+#asidetop{ height: 90px;
+    width: 97%;
+    position: absolute;
+    background:chocolate;
+border: 5px solid white;
+
+}
+ aside{position: relative;
+
+    text-align: center;
+
+    height: 450px;
+    float: left;
+    width: 30%;
+    background-color: tomato;
+    margin-top: 3px;
+}
+
+#h11{
+position: absolute;
+}
+h2{word-break: break-all;}
+#box{
+    right: 30%;
+    background-color: black;
+    width: 500px;
+    height: 160px;
+    top: 20%;
+    transform: translate(50%,50%);
+    position: absolute;
+    display: inline-block;
+    color: rgb(158, 152, 152);
+}
+
+#inbox{
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    height: 15px;
+}
+#content{
+    background-color: teal;
+    text-align: center;
+    height: 450px;
+display: block;    float: left;
+ width: 100%;}
+@keyframes bodycolor{
+    0%{
+        background-color:black ;
+    }
+    50%{
+        background-color: cadetblue;
+    }
+    100%{
+        background: crimson;
+    }
+}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}
+@font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.eot");
+    src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+         url("./Flaticon.woff2") format("woff2"),
+         url("./Flaticon.woff") format("woff"),
+         url("./Flaticon.ttf") format("truetype"),
+         url("./Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "Flaticon";
+      src: url("./Flaticon.svg#Flaticon") format("svg");
+    }
+  }
+  
+  #homesp{
+      color: transparent;
+background: url(582de7cfa265f.jpg);
+/* -webkit-background-clip: text; */
+
+  }
+  .homee{
+      font-weight: bold;
+  }
+  #sc a li{
+    margin: 4px;
+  }
+#sc a li img{
+    object-fit: contain;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    
+}
+#sc a{
+    width: 20%;
+    
+}
+.inmail{
+    padding: 1px 2px;
+    margin: auto;
+    
+}
+.inmail:valid{
+border: 2px solid green;
+outline:0px;
+border-radius: 20%;
+
+}
+.inmail:invalid{
+    border: 2px solid rgb(255, 0, 0);
+    outline:0px;
+    border-radius: 20%;
+    }
+
+#sc a li img:hover{
+background-color: #bcebb7;
+
+
+}
+
+#sc  a li{
+    display: inherit;
+    
+}
+#sc{    line-height: 80px;
+display:flex;
+    float: left;
+    margin: 0;}
+    #ins{
+        width: 10%;
+    }
+
+
+
+
+
+
+
+
+
+
+  .fimanager:before {
+        display: inline-block;
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+      display: block;
+  }
+  
+  .flaticon-001-facebook:before { content: "\f100"; }
+  .flaticon-002-twitter:before { content: "\f101"; }
+  .flaticon-003-whatsapp:before { content: "\f102"; }
+  .flaticon-004-groupme:before { content: "\f103"; }
+  .flaticon-005-kik:before { content: "\f104"; }
+  .flaticon-006-skype:before { content: "\f105"; }
+  .flaticon-007-periscope:before { content: "\f106"; }
+  .flaticon-008-youtube:before { content: "\f107"; }
+  .flaticon-009-itunes:before { content: "\f108"; }
+  .flaticon-010-linkedin:before { content: "\f109"; }
+  .flaticon-011-instagram:before { content: "\f10a"; }
+  .flaticon-012-messenger:before { content: "\f10b"; }
+  .flaticon-013-twitter:before { content: "\f10c"; }
+  .flaticon-014-snapchat:before { content: "\f10d"; }
+  .flaticon-015-reddit:before { content: "\f10e"; }
+  .flaticon-016-tik-tok:before { content: "\f10f"; }
+  
+  @media only screen and (max-width: 400px)  {
+#head{width:100%;
+    float: left;
+    width: unset;
+    transform: translate(28%, 500%);
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+display: flex;}
+#box{width: auto;
+height: auto;
+color: azure;
+}
+input{
+    color: rgb(255, 238, 238);
+}
+aside{
+    
+ width: 100%;
+ height: auto;   
+}
+main{height: auto;
+    width: 100%;
+    float: none;
+}
+    nav{ width :100%;
+        height: 70px;
+        justify-content: flex-start;
+        float: none;}
+    #logoBox{
+        float: none;
+    width: 100%;
+    height: fit-content;
+}
+nav span a{
+    display: inline-block;
+    width: 70%;
+    padding: 0px 10px;
+    background-color: brown;
+    line-height: 100px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0px 10px;
+    text-decoration: solid;
+}
+    #twt {
+      display: none;
+    }   #box{float: left;
+        width: 90%;
+        
+    }
+    #inbox{
+        width: 100%;
+    }
+    p{
+        width: 90%;
+    }
+  }
+
+@media only screen and(max-width:300px) {
+    aside{
+        width: 100%;
+
+    }main{
+        float: none;
+        width: 100%;
+    }
+    #box {
+        float: left;
+        width: 50%;
+    }
+    }
+    
+
+
+@media only screen and(max-width:600px){ 
+    aside{
+        width: 100%;
+
+    }main{
+        float: none;
+        width: 100%;
+    }
+    #asidetop {
+        position: unset;
+    }
+}
+@media only print{
+#box{display: none;}
+}
